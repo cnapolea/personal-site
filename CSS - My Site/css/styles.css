@@ -1,0 +1,288 @@
+/***************************** TAG SELECTORS ********************************/
+body {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body,
+h1 {
+  margin: 0;
+}
+
+h1 {
+  color: #3da4ab;
+  font-size: 3.3vw;
+  font-family: 'Pacifico', cursive;
+}
+
+hr {
+  border: #00000026 5px dotted;
+  border-top: none;
+  width: 2%;
+  ;
+  margin: 27px auto 27px auto;
+}
+
+h2 {
+  color: #81abab;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  margin-top: 27px;
+}
+
+p {
+  font-size: 1.3vw;
+  line-height: 1.5;
+}
+
+/***************************** CLASS SELECTORS ********************************/
+
+.bottom-container {
+  background-color: #f0f0f0;
+  padding: 10px 0 10px;
+}
+
+.btn {
+  position: relative;
+}
+
+.contact-me {
+  position: relative;
+
+}
+
+.contact-me a {
+  background-color: #f0f0f0;
+  color: inherit;
+  display: block;
+  font-weight: bold;
+  height: 25px;
+  margin: 0 auto;
+  padding-top: 10px;
+  text-decoration: none;
+  transition: ease-out .9s;
+  width: 40%;
+
+}
+
+.contact-me a:hover {
+  background-color: black;
+  color: whitesmoke;
+}
+
+.contact-me h2 {
+  margin-top: 0;
+}
+
+.css-img,
+.html-img {
+  max-width: 8%;
+  top: 20%;
+}
+
+.css-img {
+  position: absolute;
+  right: 20vw;
+  transition: ease-out 2s;
+}
+
+.css-img:hover {
+  right: 41vw;
+}
+
+.dimond-img {
+  float: left;
+  height: auto;
+  margin-top: .3%;
+  max-width: 10vw;
+}
+
+.design-img {
+  top: 20%;
+  max-width: 8vw;
+}
+
+.dots-img {
+  height: 20px;
+  top: 31px;
+
+}
+
+.first-skill {
+  line-height: 1.5;
+}
+
+.first-skill>p {
+  margin: 0 auto 0 13%;
+  text-align: left;
+  width: 80%;
+}
+
+.footer-link {
+  text-decoration: none;
+}
+
+
+.footer-link img:hover {
+  background-color: black;
+}
+
+.footer-link img {
+  border-radius: 30%;
+  height: 30px;
+  margin: 0 8px;
+  padding: 8px;
+  transition: ease-out .6s;
+
+}
+
+.header-description {
+  margin-top: 30px;
+}
+
+.header-end {
+  font-size: 2.5vw;
+  right: 34vw;
+  top: 43.1875%;
+}
+
+.header-middle {
+  top: 24.1875%;
+  left: 34.7vw;
+}
+
+.header-start {
+  top: 43.1875%;
+  left: 30.8vw;
+}
+
+
+.header-left {
+  padding-top: 1.5%;
+  margin: 0 0 0 13%;
+  text-align: left;
+
+}
+
+.html-img {
+  left: 20vw;
+  position: absolute;
+  transition: ease-out 2s;
+}
+
+.html-img:hover {
+  left: 41vw;
+}
+
+
+.idea-image {
+  float: right;
+  margin-top: .3%;
+  max-width: 10vw;
+  transition: ease-out 1s;
+}
+
+.idea-image:hover {
+  transform: rotate(30deg);
+}
+
+
+.icons-header {
+  width: 45%;
+  margin: 0 auto;
+}
+
+.mailbox-img {
+  left: 35vw;
+  position: absolute;
+  max-width: 2vw;
+  top: 17.1%;
+}
+
+.middle-container {
+  padding-top: 35px;
+  margin-bottom: 50px;
+}
+
+.profile>p {
+  width: 68%;
+  margin: 0 auto;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  height: 150px;
+  transition: linear .2s;
+}
+
+.profile-picture:hover {
+  border: 4px #3da4ab solid;
+  transform: scale(1.2);
+}
+
+
+.second-skill>p {
+  margin: 0 0 0 7%;
+  text-align: right;
+  width: 80%;
+}
+
+
+.skills-img-container {
+  height: 20vh;
+  margin-top: 30px;
+  padding-top: 30px;
+  position: relative;
+}
+
+.skills-connection {
+  bottom: 14vh;
+  left: 27.2vw;
+  margin: 0 auto;
+  position: absolute;
+  width: 33.7vw;
+  z-index: -1;
+}
+
+
+.skill-row {
+  width: 90%;
+  margin: 40px auto;
+}
+
+
+.upper-container {
+  background-color: #eaeaea47;
+  padding: 62px 0 30px;
+  position: relative;
+}
+
+.upper-container h1 {
+  position: absolute
+}
+
+
+/***************************** ID SELECTORS ********************************/
+
+#can-do-header {
+  padding-top: 1.5%;
+  margin: 60px 13% 0 0;
+  margin-bottom: 0;
+  text-align: right;
+}
+
+#copy-right>p {
+  margin-bottom: 3px;
+  margin-top: 3px;
+  font-size: 1vw;
+}
+
+#flaticon-mention>p {
+  font-size: .625rem;
+  margin: 0 auto 0 auto;
+}
+
+#flaticon-mention a {
+  text-decoration: none;
+  color: inherit;
+}
